@@ -1,19 +1,86 @@
-h1 {color: darkcyan;
+body {
+    background: lightgray;
+    font-family: lato, monospace;
+    font-size: 16pt;
+}
+div {
+    background-image:
+            linear-gradient(
+                    to right,
+                    #fffdc2,
+                    #fffdc2 15%,
+                    #d7f0a2 15%,
+                    #d7f0a2 85%,
+                    #fffdc2 85%
+            );
+}
+h1 {color: maroon;
     text-align:center;
 
 }
 
-h3 {
+h2 {
     text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
 }
 
-a {
-    background-color: white;
-    box-shadow: 0 2px 0 white;
+h3 {
     text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+p {
+    text-align: center;
+    background-image:
+            linear-gradient(
+                    to right,
+                    #fffdc2,
+                    #008000 15%,
+                    #F0F8FF 15%,
+                    #F0F8FF 85%,
+                    #008000 85%
+            );
+}
+
+ul {
+    list-style-type: square;
+}
+
+table {
+    width: 500px;
+    margin-left: 150px;
+    table-layout: auto;
+    padding: 5px;
+}
+
+
+a {
+    display: block;
+    text-align: center;
+    font-size: 16pt;
 }
 
 a:hover {
-    cursor: pointer;
-    background-color:gray;
+    cursor: crosshair;
+
 }
+
+footer {
+    position: relative;
+    margin-top: 400px;
+    height: 180px;
+    clear: both;
+}
+
+img {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+li {
+    padding: 2px;
+}
+
